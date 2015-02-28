@@ -22,14 +22,14 @@ public class LabelFrame extends JFrame
 		label1.setToolTipText("This is label1");
 		add (label1);
 		
-		Icon sofiLena = new ImageIcon(getClass().getResource("1.jpeg"));
-		label2 = new JLabel ("Label with text and icon", sofiLena, SwingConstants.LEFT);
+		Icon stark = new ImageIcon(getClass().getResource("1.jpeg"));
+		label2 = new JLabel ("Label with text and icon", stark, SwingConstants.LEFT);
 		label2.setToolTipText("This is label2");
 		add (label2);
 		
 		label3 = new JLabel ();
 		label3.setText("Label with icon and text at bottom");
-		label3.setIcon(sofiLena);
+		label3.setIcon(stark);
 		label3.setHorizontalTextPosition(SwingConstants.CENTER);
 		label3.setVerticalTextPosition(SwingConstants.BOTTOM);
 		label3.setToolTipText("This is label3");
